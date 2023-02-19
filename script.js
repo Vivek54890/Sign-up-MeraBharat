@@ -11,18 +11,18 @@ function validate() {
 
     else if(password1 == "")
     {
-        alert("Enter Password1...");
+        alert("please Enter the Password...");
         return false;
     }
 
     else if(password2 == "")
     {
-        alert("Enter Password2...");
+        alert("Please Enter Confirm Password...");
         return false;
     }
 
     else
     {
-    	alert("Loing failed__!!");
+    	alert("Wrong User Id or Password... Loing failed__!!");
     }
 }
